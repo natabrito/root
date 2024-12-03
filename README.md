@@ -48,3 +48,29 @@ root/
 └── glossary.md
 
 ```
+# Ingestion Service
+
+## Descrição
+
+O Serviço de Ingestão recebe transações financeiras através do API Gateway, valida os dados e os publica no sistema de mensageria para processamento posterior.
+
+## Tecnologias Utilizadas
+
+- Java 11
+- Spring Boot
+- Maven
+
+## Como Executar
+
+### Pré-requisitos
+
+- Java 11 instalado
+- Maven instalado
+- Docker (opcional, para executar com Docker)
+
+### Passos
+
+1. Clonar o repositório:
+
+   ```bash
+   git clone https://github.com/empresa/anomaly-detection-system.git
